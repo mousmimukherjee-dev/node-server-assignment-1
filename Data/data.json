@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "vardcentralen-City",
+    "type": "General",
+    "address": {
+      "street":"Sveavägen 10",
+      "city":"stockholm"
+    },
+    "phone": "08-123456",
+    "open_hours": "08:00-17:00"
+  },
+  {
+    "id": 2,
+    "name": "pediatrik-Barn",
+    "type": "Pediatrician",
+    "address": {
+      "street":"Sveavägen 10",
+      "city":"stockholm"
+    },
+    "phone": "08-654321",
+    "open_hours": "09:00-16:00"
+  },
+  {
+    "id": 3,
+    "name": "akutmottagning",
+    "type": "Emergency",
+    "address": {
+      "street":"Sveavägen 10",
+      "city":"stockholm"
+    },
+    "phone": "08-111222",
+    "open_hours": "24/7"
+  },
+  {
+    "id": 4,
+    "name": "sodermalm-vardcentral",
+    "type": "General",
+    "address": {
+      "street": "Götgatan 58",
+      "city": "Stockholm"
+    },
+    "phone": "08-222333",
+    "open_hours": "08:00-18:00"
+  },
+  {
+    "id": 5,
+    "name": "ostermalm-specialistklinik",
+    "type": "Specialist",
+    "address": {
+      "street": "Karlavägen 72",
+      "city": "Stockholm"
+    },
+    "phone": "08-333444",
+    "open_hours": "09:00-17:00"
+  },
+  {
+    "id": 6,
+    "name": "kungsholmen-vardcentral",
+    "type": "General",
+    "address": {
+      "street": "Fleminggatan 24",
+      "city": "Stockholm"
+    },
+    "phone": "08-444555",
+    "open_hours": "08:00-17:00"
+  },
+  {
+    "id": 7,
+    "name": "norrmalm-halsoklinik",
+    "type": "Primary Care",
+    "address": {
+      "street": "Drottninggatan 90",
+      "city": "Stockholm"
+    },
+    "phone": "08-555666",
+    "open_hours": "08:30-16:30"
+  },
+  {
+    "id": 8,
+    "name": "akut-jour-centrum",
+    "type": "Emergency",
+    "address": {
+      "street": "S:t Göransgatan 1",
+      "city": "Stockholm"
+    },
+    "phone": "08-666777",
+    "open_hours": "24/7"
+  }
+
+]
+
+
