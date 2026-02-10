@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
   const pathName = fullPath.pathname;
   const query = fullPath.query;
 
-  res.writeHead(200, { "Content-Type": "text/html" });
+   
   if (pathName === "/") {
     fs.readFile("./content/index.html", (err, html) => {
       if (err) {
@@ -22,6 +22,7 @@ const server = http.createServer((req, res) => {
         res.write("HTML not found");
         res.end();
       } else {
+        res.writeHead(200, { "Content-Type": "text/html" });
         res.write(html);
         res.write(footer("&copy; Mousumi Mukherjee 2026, made with love"));
         res.end();
