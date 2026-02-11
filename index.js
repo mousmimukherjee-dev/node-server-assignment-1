@@ -53,7 +53,7 @@ const server = http.createServer((req, res) => {
               </nav>`);
 
     data.forEach((hospital) => {
-      res.write(`<a href="/home?name=${hospital.name}">${hospital.name}</a>
+      res.write(`<a href="/info?name=${hospital.name}">${hospital.name}</a>
                 <p>Type:${hospital.type}</p>
                 <p>Phone:${hospital.phone}</p>`);
     });
